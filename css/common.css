@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+  background: #fafafa;
+}
+
+h1, h2, h3, h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 0.95rem;
+}
+
+.ly_content {
+  width: 780px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: repeat(2,375px);
+  gap: 10px;
+  background: #f0f0f0;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;  
+}
+
+.box h3, .box h4, .box h5, .info p, .box ul, .box li {
+  margin-top: 0;
+  margin-bottom: 3px;
+  padding: 0;
+}
+
+.info p, .box ul, .box li{
+  font-size: 0.85rem;
+}
+
+.box ul, .box li {
+  list-style: none;
+}
+
+.box_tag {
+  font-size: 0.8rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.box a {
+  text-decoration: none;
+  user-select: none;
+}
+
+.box img{
+  width: 375px;
+}
+
+.mark_ly {
+  padding: 1px 3px;
+  border-radius: 3px;
+}
+
+.css_color {
+  color: #fff;
+  background: #379ad6;
+}
+
+.javas_color {
+  color: #000;
+  background: #f0db4f;
+}
