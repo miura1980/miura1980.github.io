@@ -1,7 +1,25 @@
 @charset "UTF-8";
 
+body, .header_wrap, h1 {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #fafafa;
+}
+
+.ly_header_wrap, .ly_footer_wrap {
+  background: #4f4f4f;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+header, footer {
+  width: 780px;
+  color: #fafafa;
+  margin: 0 auto;
 }
 
 h1, h2, h3, h4 {
@@ -14,8 +32,8 @@ h5 {
 
 .ly_content {
   width: 780px;
-  margin: 20px auto;
-  padding: 0 10px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 article {
@@ -36,6 +54,7 @@ article {
 
 .info p, .box ul, .box li{
   font-size: 0.85rem;
+  line-height: 1.45rem;
 }
 
 .box ul, .box li {
